@@ -1,0 +1,19 @@
+{
+  "name": "edu-admin",
+  "version": "1.0.0",
+  "description": "下载静态页模板到本地：",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "echarts": "^3.7.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "nprogress": "^0.2.0"
+  }
+}
