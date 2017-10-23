@@ -10,10 +10,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "art-template": "^4.12.1",
     "bootstrap": "^3.3.7",
     "echarts": "^3.7.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
-    "nprogress": "^0.2.0"
+    "jquery-validation": "^1.17.0",
+    "nprogress": "^0.2.0",
+    "requirejs": "^2.3.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-less": "^3.3.2",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "http-proxy-middleware": "^0.17.4"
   }
 }

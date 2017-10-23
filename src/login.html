@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>学IT - 后台管理系统</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="node_modules/nprogress/nprogress.css">
-    <link rel="stylesheet" href="./less/index.css">
+  <meta charset="UTF-8">
+  <title>学IT - 后台管理系统</title>
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <!-- 登录 -->
-    <div class="login">
-        <div class="login-wrap">
-            <div class="avatar">
-                <img src="./uploads/monkey.png" class="img-circle" alt="">
-            </div>
-            <form action="" class="col-md-offset-1 col-md-10">
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon">
+  <!-- 登录 -->
+  <div class="login">
+    <div class="login-wrap">
+      <div class="avatar">
+        <img src="img/monkey.png" class="img-circle" alt="">
+      </div>
+      <form id="form" action="" class="col-md-offset-1 col-md-10">
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon">
                         <i class="fa fa-user"></i>
                     </span>
-                    <input type="text" class="form-control" placeholder="用户名">
-                </div>
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon">
+          <input type="text" class="form-control" name="tc_name" placeholder="用户名">
+        </div>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon">
                         <i class="fa fa-key"></i>
                     </span>
-                    <input type="password" class="form-control" placeholder="密码">
-                </div>
-                <button type="submit" class="btn btn-lg btn-primary btn-block">登 录</button>
-            </form>
+          <input type="password" class="form-control" name="tc_pass" placeholder="密码">
         </div>
+        <button type="submit" class="btn btn-lg btn-primary btn-block">登 录</button>
+      </form>
     </div>
-    
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </div>
+  <script src="vendor/requirejs/require.js"></script>
+  <script src="js/common/requirejs.config.js"></script>
+  <script src="js/login.js"></script>
 </body>
+
 </html>

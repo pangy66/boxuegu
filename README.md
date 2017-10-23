@@ -1,40 +1,18 @@
-# 在线教育管理系统
+# 博学谷后台项目
 
-## 预览项目模板
+## 部分功能，未完善
 
-下载静态页模板到本地：
+- ajax动态获取数据
+- 添加讲师
+- 编辑讲师
+- 注销/启用讲师
+- 登录
+- 退出登录
 
-```bash
-$ git clone https://github.com/lipengzhou/admin-template.git
-```
+### 利用的插件
 
-安装依赖：
-
-```bash
-$ cd admin-template
-$ npm install
-```
-
-启动预览：
-
-```bash
-$ npm start
-```
-
-## 搭建 Gulp 任务工作流
-
-### 找痛点
-
-- 编译 less
-- 提取 HTML 公共部分
-- 图片压缩
-- js 合并压缩
-- 在开发过程中我希望能代码修改完毕，帮我自动刷新浏览器
-
-## 目录结构
-
-
-
-### 解决问题（以任务为单位）
-
+- bootstrap 完成页面的制作
+- echarts完成index页面的图表
+- requirejs解决页面引用js文件过多的问题
+- gulp 搭建任务流
 
